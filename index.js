@@ -118,6 +118,6 @@ async function FindData() {
   
   function NextPage(post) {
     localStorage.setItem("singlePost", JSON.stringify(post));
-    window.location.href = "./redirected.html";
+    window.location.href = "./post.html";
   }
   
